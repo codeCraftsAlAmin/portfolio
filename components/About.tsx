@@ -1,5 +1,5 @@
 import Image from 'next/image';
-
+import { SiNextdotjs, SiFastapi, SiPostgresql, SiPrisma, SiDocker, SiRedux } from 'react-icons/si';
 export default function About() {
   return (
     <section id="about">
@@ -7,7 +7,7 @@ export default function About() {
       <div className="about-grid" style={{ marginTop: '40px' }}>
         <div className="about-photo">
           <Image
-            src="https://drive.google.com/uc?export=view&id=1ZGoDRdBcdP4JChxJINje-OhIMPEp8LcR"
+            src="https://i.pinimg.com/736x/aa/7b/6b/aa7b6b6ec83bc30f4677a9084ca423bb.jpg"
             alt="Al-Amin Ahmed"
             fill
             style={{ objectFit: 'cover' }}
@@ -15,17 +15,28 @@ export default function About() {
         </div>
         <div className="about-content">
           <h2>I&apos;m Al-Amin Ahmed.</h2>
-          <p>I am a software developer with a deep passion for clean architecture and full-stack engineering. My journey began with mastering TypeScript and has since evolved into building complex enterprise systems[cite: 1].</p>
-          <p>I enjoy solving the intricate challenges of backend logic while ensuring the frontend remains responsive and user-friendly[cite: 1].</p>
-          <div style={{ marginTop: '20px' }}>
-            <div style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--muted)', marginBottom: '12px' }}>Primary Tech Stack</div>
-            <div className="tech-stack" style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
-              <span className="tech-badge">Next.js</span>
-              <span className="tech-badge">FastAPI</span>
-              <span className="tech-badge">PostgreSQL</span>
-              <span className="tech-badge">Prisma</span>
-              <span className="tech-badge">Docker</span>
-              <span className="tech-badge">Redux</span>
+          <p>I am a software developer with a deep passion for clean architecture and full-stack engineering. My journey began with mastering TypeScript and has since evolved into building complex enterprise systems.</p>
+          <p>I enjoy solving the intricate challenges of backend logic while ensuring the frontend remains responsive and user-friendly.</p>
+          <div style={{ marginTop: '30px' }}>
+            <div style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--muted)', marginBottom: '16px' }}>Primary Tech Stack</div>
+            <div className="tech-stack" style={{ display: 'flex', gap: '16px', flexWrap: 'wrap', marginBottom: '30px' }}>
+              <div title="Next.js" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '48px', height: '48px', borderRadius: '12px', background: 'rgba(255,255,255,0.05)', color: 'var(--text)' }}><SiNextdotjs size={24} /></div>
+              <div title="PostgreSQL" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '48px', height: '48px', borderRadius: '12px', background: 'rgba(255,255,255,0.05)', color: '#336791' }}><SiPostgresql size={24} /></div>
+              <div title="Prisma" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '48px', height: '48px', borderRadius: '12px', background: 'rgba(255,255,255,0.05)', color: 'var(--text)' }}><SiPrisma size={24} /></div>
+              <div title="Docker" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '48px', height: '48px', borderRadius: '12px', background: 'rgba(255,255,255,0.05)', color: '#2496ED' }}><SiDocker size={24} /></div>
+              <div title="Redux" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '48px', height: '48px', borderRadius: '12px', background: 'rgba(255,255,255,0.05)', color: '#764ABC' }}><SiRedux size={24} /></div>
+            </div>
+            
+            <div style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--muted)', marginBottom: '12px' }}>Skills & Technologies</div>
+            <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+              {[
+                "TypeScript", "Node.js", "Express", "MongoDB & Mongoose", "TailwindCSS", 
+                "JWT & OAuth", "Stripe & SSLCommerz", "Redis", 
+                "GraphQL & Apollo", "RTL", "AWS", "NGINX", "Linux", 
+                "PM2", "GitHub Actions (CI/CD)"
+              ].map(skill => (
+                <span key={skill} className="tech-badge">{skill}</span>
+              ))}
             </div>
           </div>
           <div style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--muted)', marginTop: '20px', marginBottom: '8px' }}>Education & Experience</div>
