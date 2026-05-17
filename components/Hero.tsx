@@ -76,7 +76,7 @@ export default function Hero() {
           
           <div className="hero-photo-wrap gsap-hero-photo" style={{ width: '320px', height: '320px', borderRadius: '50%', border: 'none', background: 'transparent', overflow: 'hidden', position: 'relative' }}>
             <Image
-              src="https://i.pinimg.com/736x/aa/7b/6b/aa7b6b6ec83bc30f4677a9084ca423bb.jpg"
+              src="/IMG_20260517_154527.jpg"
               alt="Al-Amin Ahmed"
               width={320}
               height={320}

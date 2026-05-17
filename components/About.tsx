@@ -7,7 +7,7 @@ export default function About() {
       <div className="about-grid" style={{ marginTop: '40px' }}>
         <div className="about-photo">
           <Image
-            src="https://i.pinimg.com/736x/aa/7b/6b/aa7b6b6ec83bc30f4677a9084ca423bb.jpg"
+            src="/IMG_20260517_154527.jpg"
             alt="Al-Amin Ahmed"
             fill
             style={{ objectFit: 'cover' }}
