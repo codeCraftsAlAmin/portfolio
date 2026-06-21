@@ -22,7 +22,7 @@ export default function Navbar() {
         <li><Link href="#projects">Work</Link></li>
         <li><Link href="#services">Services</Link></li>
       </ul>
-      <Link href="#contact" className="btn-primary">Download CV</Link>
+      <Link href="https://drive.google.com/file/d/1cMEXiQZg5uVzltiJLEwD0kGjnXqD9c1b/view?usp=sharing" target="_blank" rel="noreferrer" className="btn-primary">Download CV</Link>
     </nav>
   );
 }

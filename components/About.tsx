@@ -7,7 +7,7 @@ export default function About() {
       <div className="about-grid" style={{ marginTop: '40px' }}>
         <div className="about-photo">
           <Image
-            src="/IMG_20260517_154527.jpg"
+            src="/About_Photo.jpg"
             alt="Al-Amin Ahmed"
             fill
             style={{ objectFit: 'cover' }}
@@ -24,16 +24,13 @@ export default function About() {
               <div title="PostgreSQL" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '48px', height: '48px', borderRadius: '12px', background: 'rgba(255,255,255,0.05)', color: '#336791' }}><SiPostgresql size={24} /></div>
               <div title="Prisma" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '48px', height: '48px', borderRadius: '12px', background: 'rgba(255,255,255,0.05)', color: 'var(--text)' }}><SiPrisma size={24} /></div>
               <div title="Docker" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '48px', height: '48px', borderRadius: '12px', background: 'rgba(255,255,255,0.05)', color: '#2496ED' }}><SiDocker size={24} /></div>
-              <div title="Redux" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '48px', height: '48px', borderRadius: '12px', background: 'rgba(255,255,255,0.05)', color: '#764ABC' }}><SiRedux size={24} /></div>
             </div>
             
             <div style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--muted)', marginBottom: '12px' }}>Skills & Technologies</div>
             <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
               {[
                 "TypeScript", "Node.js", "Express", "MongoDB & Mongoose", "TailwindCSS", 
-                "JWT & OAuth", "Stripe & SSLCommerz", "Redis", 
-                "GraphQL & Apollo", "RTL", "AWS", "NGINX", "Linux", 
-                "PM2", "GitHub Actions (CI/CD)"
+                "JWT & OAuth", "Stripe", "Github"
               ].map(skill => (
                 <span key={skill} className="tech-badge">{skill}</span>
               ))}

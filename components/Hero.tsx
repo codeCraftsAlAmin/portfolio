@@ -58,7 +58,7 @@ export default function Hero() {
             <span style={{ color: '#fff' }}>Digital Experiences.</span>
           </h1>
           <p className="gsap-hero-text" style={{ color: 'var(--muted)', fontSize: '16px', lineHeight: '1.6', marginBottom: '40px', maxWidth: '420px' }}>
-            I specialize in building scalable web applications with Next.js, FastAPI, and robust RDBMS architectures.
+            I specialize in building scalable web applications with Next.js, ExpressJs, and robust RDBMS architectures.
           </p>
           <div className="hero-btns gsap-hero-text" style={{ display: 'flex', gap: '16px' }}>
             <Link href="#contact" className="btn-primary" style={{ background: '#2563eb', color: '#fff', padding: '12px 32px', borderRadius: '50px', fontWeight: '500' }}>
@@ -76,7 +76,7 @@ export default function Hero() {
           
           <div className="hero-photo-wrap gsap-hero-photo" style={{ width: '320px', height: '320px', borderRadius: '50%', border: 'none', background: 'transparent', overflow: 'hidden', position: 'relative' }}>
             <Image
-              src="/IMG_20260517_154527.jpg"
+              src="/About_Photo.jpg"
               alt="Al-Amin Ahmed"
               width={320}
               height={320}
@@ -96,8 +96,8 @@ export default function Hero() {
           </div>
           
           <div className="gsap-hero-stat" style={{ ...statStyle, bottom: '60px', left: '-60px' }}>
-            <div style={{ fontSize: '24px', fontWeight: '700', color: '#fff' }}>140+</div>
-            <div style={{ fontSize: '12px', color: 'var(--muted)' }}>Projects Completed</div>
+            <div style={{ fontSize: '24px', fontWeight: '700', color: '#fff' }}>12+</div>
+            <div style={{ fontSize: '12px', color: 'var(--muted)' }}>Problem Solving</div>
           </div>
           
           <div className="gsap-hero-stat" style={{ ...statStyle, bottom: '20px', right: '-20px' }}>
